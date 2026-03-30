@@ -1,5 +1,5 @@
-{{/* Get the author data from site.Data */}}
-{{ $authorData := site.Data.authors }}
+{{/* Get the author data from hugo.Data */}}
+{{ $authorData := hugo.Data.authors }}
 
 {{/* Iterate over each author key-value pair */}}
 {{ range $slug, $profile := $authorData }}
